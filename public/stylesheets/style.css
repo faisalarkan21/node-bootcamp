@@ -1,8 +1,61 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*padding: 50px;*/
+  min-height: 100%;
+  background-color: #2F2F2F !important;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
 }
 
 a {
   color: #00B7FF;
 }
+
+div.navbar-edit , a.navbar-brand {
+  background-color: transparent !important;
+  font-size: 18px;
+  margin-top: 10px;
+  
+}
+
+
+a.navbar-brand {
+  margin-left: 20px !important; 
+}
+
+ul.navbar-right {
+  margin-right: 20px;
+}
+
+
+
+div.node {
+  background-image: url('/images/node5.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%; 
+  /*margin-left: 300px;*/
+  background-size: cover;
+  background-position: center;
+
+
+  
+  /*top: 0;*/
+  /*width: 100%;
+  height: 100%;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+}
+
+
+a.btn-login {
+
+  background-color: black !important;
+ 
+
+}
+
